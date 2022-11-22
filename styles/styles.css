@@ -16,7 +16,8 @@
 ? 3) second container
 ? 4) Third container
 ? 5) last container
-* II - xxx.html
+* II - humans.html
+? 1) humansContainer
 * III - titans.html
 ? 1) container 
 ? 2) description
@@ -370,12 +371,14 @@ body {
 /*?---------------- 2) description : --------------------*/
 .description {
   border: black 2px solid;
-  background-color: rgba(52, 58, 64, 0.762);
+  background-color: rgba(142, 43, 28, 0.607);
+
   border-radius: 25px;
   margin: 20px 35px;
 }
 
 .titan-h {
+  text-shadow: 5px 5px 10px #ff0000;
   margin: 0 0;
   display: flex;
   color: #edf2f4;
@@ -388,6 +391,7 @@ body {
   margin: 0 0;
   display: flex;
   color: #edf2f4;
+  text-shadow: 5px 5px 10px #000000;
   font-family: "Roboto";
   justify-content: center;
   padding: 0 30px 30px 30px;
@@ -395,4 +399,97 @@ body {
 
 .D-disabled {
   display: none;
+}
+
+/** ----------------- I - Humans.html : -------------*/
+/*?---------------- 1) humansContainer : --------------------*/
+#humansBody {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/map0.jpg);
+  background-attachment: fixed;
+}
+
+.humansContainer {
+  padding-top: 15px;
+  margin: 0;
+  display: flex;
+  margin: auto;
+  margin-bottom: 9px;
+  width: 77vw;
+  height: 43vh;
+  /* background-color: white;
+  border-radius: 25px;
+  border: black 2px solid;
+  color: white; */
+}
+
+.humansImg {
+  margin-right: 15px;
+  display: flex;
+  display: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 44%;
+  height: 95%;
+  border-radius: 50px;
+  transition: flex 0.6s ease-in-out;
+  border: black 2px solid;
+}
+
+.humansTxt {
+  padding: 25px 25px;
+  background-color: rgba(24, 153, 188, 0.253);
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border: black 2px solid;
+  width: 60%;
+  font-size: 19px;
+  text-shadow: 5px 5px 10px #000000;
+  color: white;
+  height: 95%;
+  margin: 0;
+}
+
+.humansTxt h1 {
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px #0e2e37;
+}
+
+.humansImg.img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/eren.jpg);
+}
+.humansImg.img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/mikasa.jpeg);
+}
+.humansImg.img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/armin.jpg);
+}
+.humansImg.img4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/levi.jpg);
+}
+.humansImg.img5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/erwin.png);
+}
+.humansImg.img6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/hanji.png);
+}
+.humansImg.img7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+}
+.humansImg.img8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+}
+.humansImg.img9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+}
+.humansImg.img10 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+}
+.humansImg.img11 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+}
+.humansImg.img12 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
 }
