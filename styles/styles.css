@@ -21,7 +21,8 @@
 * III - titans.html
 ? 1) container 
 ? 2) description
-* IV - xxx.html
+* IV - artWork.html
+? 1) gallery
 
 /** ----------------- I - index.html : -------------*/
 /*?---------------- 1) nav : --------------------*/
@@ -513,4 +514,51 @@ body {
 
 .humansImg.img12 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/sasha.png);
+}
+
+/** ----------------- I - artWork.html : -------------*/
+/*?---------------- 1) Gallery : --------------------*/
+.artContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.artContainer .heading {
+  width: 50%;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Alik";
+}
+
+.artContainer .heading h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.567);
+}
+
+.artContainer .heading h3 span {
+  font-weight: 100;
+}
+
+.artContainer .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.artContainer .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.artContainer .box .dream img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
 }
