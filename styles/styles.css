@@ -34,7 +34,7 @@
 
 body {
 
-  background-color: #1a1a1a;
+  background-color: black;
   font-family: 'Alike', serif;
   overflow-x: hidden;
   margin: 0;
@@ -99,7 +99,7 @@ body {
   border: black 2px solid;
   margin: 0 0;
   font-family: "Roboto";
-  background-color: #1a1a1a;
+  background-color: black;
 }
 
 .textContainer h1 {
@@ -339,6 +339,7 @@ body {
   color: white;
   cursor: pointer;
   flex: 0.5;
+  border: blur(0px) !important;
   margin: 10px;
   position: relative;
   transition: flex 0.6s ease-in-out;
@@ -417,10 +418,6 @@ body {
   margin-bottom: 9px;
   width: 77vw;
   height: 43vh;
-  /* background-color: white;
-  border-radius: 25px;
-  border: black 2px solid;
-  color: white; */
 }
 
 .humansImg {
@@ -435,11 +432,17 @@ body {
   border-radius: 50px;
   transition: flex 0.6s ease-in-out;
   border: black 2px solid;
+  transform: translateX(-400%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.humansImg.show {
+  transform: translateX(0);
 }
 
 .humansTxt {
   padding: 25px 25px;
-  background-color: rgba(24, 153, 188, 0.253);
+  background-color: rgba(20, 87, 106, 0.657);
   justify-content: center;
   align-items: center;
   border-radius: 25px;
@@ -450,46 +453,64 @@ body {
   color: white;
   height: 95%;
   margin: 0;
+  transform: translateX(400%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.humansTxt.show {
+  transform: translateX(0);
 }
 
 .humansTxt h1 {
   font-size: 3rem;
   text-shadow: 5px 5px 10px #0e2e37;
+
 }
 
 .humansImg.img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/eren.jpg);
 }
+
 .humansImg.img2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/mikasa.jpeg);
 }
+
 .humansImg.img3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/armin.jpg);
 }
+
 .humansImg.img4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/levi.jpg);
 }
+
 .humansImg.img5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/erwin.png);
 }
+
 .humansImg.img6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/hanji.png);
 }
+
 .humansImg.img7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/reiner.png);
 }
+
 .humansImg.img8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/berthold.png);
 }
+
 .humansImg.img9 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/annie.png);
 }
+
 .humansImg.img10 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/zeke.png);
 }
+
 .humansImg.img11 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/ymir.png);
 }
+
 .humansImg.img12 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/sasha.png);
 }
