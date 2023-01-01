@@ -27,7 +27,7 @@
 /** ----------------- I - index.html : -------------*/
 /*?---------------- 1) nav : --------------------*/
 * {
-  cursor: url(../img/levi\ hover.cur), auto !important;
+  cursor: url(img/levi\ hover.cur), auto !important;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -75,7 +75,7 @@ body {
 
 /*?---------------- 2) First container : --------------------*/
 .firstContainer {
-  background-image: url(../img/background1.png);
+  background-image: url(img/background1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -129,7 +129,7 @@ body {
 
 /*?---------------- 4) Third container : --------------------*/
 .thirdContainer {
-  background-image: url(../img/732017.jpg);
+  background-image: url(img/732017.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -150,7 +150,7 @@ body {
 
 /*?---------------- 5) Fourth container : --------------------*/
 .fourthContainer {
-  background-image: url(../img/mikasa\ vs\ rainer.png);
+  background-image: url(img/mikasa\ vs\ rainer.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -258,7 +258,7 @@ body {
   display: block !important;
   /**/
   left: 0;
-  background: url(../img/titanssplit.jpg);
+  background: url(img/titanssplit.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -277,7 +277,7 @@ body {
   display: block !important;
   /**/
   right: 0;
-  background: url(../img/aot.jpg);
+  background: url(img/aot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -321,7 +321,7 @@ body {
 /*?---------------- 1) container : --------------------*/
 #titans-body {
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/map0.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/map0.jpg);
   background-attachment: fixed;
 }
 
@@ -407,7 +407,7 @@ body {
 /*?---------------- 1) humansContainer : --------------------*/
 #humansBody {
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/map0.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/map0.jpg);
   background-attachment: fixed;
 }
 
@@ -469,51 +469,51 @@ body {
 }
 
 .humansImg.img1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/eren.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/eren.jpg);
 }
 
 .humansImg.img2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/mikasa.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/mikasa.jpeg);
 }
 
 .humansImg.img3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/armin.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/armin.jpg);
 }
 
 .humansImg.img4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/levi.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/levi.jpg);
 }
 
 .humansImg.img5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/erwin.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/erwin.png);
 }
 
 .humansImg.img6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/hanji.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/hanji.png);
 }
 
 .humansImg.img7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/reiner.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/reiner.png);
 }
 
 .humansImg.img8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/berthold.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/berthold.png);
 }
 
 .humansImg.img9 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/annie.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/annie.png);
 }
 
 .humansImg.img10 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/zeke.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/zeke.png);
 }
 
 .humansImg.img11 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/ymir.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/ymir.png);
 }
 
 .humansImg.img12 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(../img/humans/sasha.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.15)), url(img/humans/sasha.png);
 }
 
 /** ----------------- I - artWork.html : -------------*/
