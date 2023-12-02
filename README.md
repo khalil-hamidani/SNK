@@ -21,7 +21,7 @@ The Titans page provides information about the nine titans that appear in the se
 
 ## Art Gallery
 The Art Gallery page provides a collection of high-quality images and fan art related to the series. The page includes a slideshow of images and the ability to download or share the images on social media.
-|                    Main page                    |
+|                    Art Gallery page                    |
 | :---------------------------------------------: |
 | <img src="img/screenshots/3.png" width="800"> |
 
