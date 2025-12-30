@@ -1,6 +1,8 @@
 # SNK Fan Website
 This is a fan website dedicated to the anime/manga series "Attack on Titan" (also known as "Shingeki no Kyojin" or "SNK"). The website provides an overview of the anime/manga, a page about the nine titans, a page about the main characters, and an art gallery page. The website is built using HTML, CSS, and JavaScript.
 
+![SNK Preview](img/snk.png)
+
 ## Overview
 The Overview page provides a brief summary of the plot and themes of the anime/manga. It also includes information about the creator, Hajime Isayama, and the history of the series.
 |                    Main page                    |
